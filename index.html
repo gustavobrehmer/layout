@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Khand:wght@600&display=swap" rel="stylesheet">
+    <title>Layout Gustavo Brehmer</title>
+    <style>
+
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'Khand', sans-serif;
+        }
+
+        .jogodavelha{
+            margin-top: 7px;
+            font-size: 25px;
+        }
+
+        .descricao{
+            font-size: 30px;
+            margin-left: -2px;
+        }
+
+        .container{
+            width: 700px;
+            margin: 0 auto;
+            height: 650px;
+            border: 2px solid #EAEAEA;
+            padding: 10px;
+        }
+
+        .global{
+            padding: 10px 0 15px 0;
+        }
+
+        .global span{
+            color: #EAEAEA;
+        }
+
+        .global span:first-child{
+            margin-left: 22px;
+        }
+
+        .header{
+            width: 100%;
+            border: 2px solid #E40090;
+            display: flex;
+            height: 130px;
+            align-items: center;
+        }
+
+        .header span{
+           color: #E40090;
+        }
+
+        .header span:first-child{
+            margin-left: 20px;
+        }
+
+        .sessao2{
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-between;
+            height: 250px;
+            align-items: center;
+        }
+
+        .conteudo{
+            height: 100%;
+            width: 60%;
+            border: 2px solid #98DAC6;
+            margin-right: 5px;
+            display: flex;
+            align-items: center;
+        }
+
+        .conteudo span{
+            color: #98DAC6;
+        }
+
+        .conteudo span:first-child{
+            margin-left: 20px;
+        }
+
+        .menu{
+            height: 100%;
+            width: 40%;
+            border: 2px solid #8DC9E8;
+            margin-left: 5px;
+            display: flex;
+            align-items: center;
+        }
+
+        .menu span{
+            color: #8DC9E8;
+        }
+
+        .menu span:first-child{
+            margin-left: 20px;
+        }
+
+        .footer{
+            height: 156px;
+            margin-top: 10px;
+            width: 100%;
+            border: 2px solid #FF7D00;
+            display: flex;
+            align-items: center;;
+        }
+
+        .footer span{
+            margin-top: 15px;
+            color: #FF7D00;
+        }
+
+        .footer .jogodavelha{
+            margin-top: 27px;
+        }
+
+        .footer span:first-child{
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="global">
+            <span class="jogodavelha">#</span><span class="descricao">GLOBAL</span>
+        </div>
+        <header class="header">
+            <span class="jogodavelha">#</span><span class="descricao">TOPO</span>
+        </header>
+        <div class="sessao2">
+            <div class="conteudo">
+                    <span class="jogodavelha">#</span><span class="descricao">CONTEUDO</span>
+            </div>
+            <div class="menu">
+                    <span class="jogodavelha">#</span><span class="descricao">MENU</span>
+            </div>
+        </div>
+        <footer class="footer">
+            <span class="jogodavelha">#</span><span class="descricao">RODAPE</span>
+        </footer>
+    </div>
+</body>
+</html>
